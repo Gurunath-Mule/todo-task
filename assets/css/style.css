@@ -1,0 +1,10 @@
+
+
+body{
+    background-color: gray;
+}
+
+#todoContainer li{
+    font-size: 32px;
+    text-transform: uppercase;
+}
