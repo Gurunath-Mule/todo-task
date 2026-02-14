@@ -32,6 +32,9 @@ function creatLists(arr){
 
   const todocontainer = document.getElementById('todoContainer')
   todocontainer.innerHTML = result;
+
+
+
   
 }
 creatLists(todoarr)
@@ -63,7 +66,7 @@ let ul = document.querySelector('#todoContainer ul')
 ul.prepend(li)
 
 Swal.fire({
-  title :` New todo item ${todoobj.todoname} is added succesfully !`,
+  title :` New todo item ${todoobj.todoname} is added succesfully done !`,
   timer : 3000
 })
 
